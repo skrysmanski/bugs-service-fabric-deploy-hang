@@ -17,7 +17,7 @@
 
          The attribute ServiceTypeName below must match the name defined in the imported ServiceManifest.xml file. -->
     <Service Name="Stateless1">
-      <StatelessService ServiceTypeName="Stateless1Type" InstanceCount="[Stateless1_InstanceCount]">
+      <StatelessService ServiceTypeName="Stateless1Type" InstanceCount="[Stateless1_InstanceCount2]">
         <SingletonPartition />
       </StatelessService>
     </Service>
